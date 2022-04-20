@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="C:/Users/funlo/Desktop/project1/bootstrap-icons-1.5.0/">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>PLAN YOUR TRIP</title>
+    <link rel="Icon" href="../images/icon.png">
+    <style>
+      .hover{
+        color: #dc3545;
+      }
+      .hover:hover{
+        background-color: #dc3545;
+        color: #fff;
+      }
+
+      @media only screen and (max-width: 600px){
+        .p{
+          display: none;
+        }
+      }
+    </style>
+</head>
+<body style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <div>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./mainPage.html"><i class="fal fa-tree-palm"></i> TRAVEL EXPLORA</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 p-2 mx-auto">
+              <li class="nav-item dropdown pe-3">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdownNav" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+                  Things To Do
+                </a>
+                <ul class="dropdown-menu bg-light" aria-labelledby="dropdownNav scroll">
+                  <li><a class="dropdown-item hover" href="./beachHolidays.html">Beach Holidays</a></li>
+                  <li><a class="dropdown-item hover" href="./shopping.html">Shopping</a></li>
+                  <li><a class="dropdown-item hover" href="./adventure.html">Adventure & sports</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown pe-3">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdownNav" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+                  Plan Your Trip
+                </a>
+                <ul class="dropdown-menu bg-light" aria-labelledby="dropdownNav">
+                  <li><a class="dropdown-item hover" href="./travelInfo.html">Travel information</a></li>
+                  <li><a class="dropdown-item hover" href="./gettingAround.html">Getting Around</a></li>
+                  <li><a class="dropdown-item hover" href="./accommodation.html">Accommodation</a></li>
+                </ul>
+              </li>
+              <li class="nav-item pe-3">
+                <a class="nav-link" aria-current="page" href="./bookByDestination.html">Book Travel</a>
+              </li>
+              <li class="nav-item dropdown pe-3">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdownNav" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+                  Contact
+                </a>
+                <ul class="dropdown-menu bg-light" aria-labelledby="dropdownNav">
+                  <li><a class="dropdown-item hover" href="./aboutUs.html">About Us</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item hover" href="./emailSignup.html">Email Signup</a></li>
+                </ul>
+              </li>
+            </ul>
+            <button class="btn btn-light rounded-circle me-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"><i class="fal fa-search"></i></button>
+            <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel" style="border-left: 10px solid #dc3545;border-right: 10px solid #dc3545;">
+              <div class="offcanvas-header">
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+            <div class="offcanvas-body">
+              <div class="container">
+                <form class="d-flex" style="padding-right: 30%;padding-left:30%;">
+                  <input class="form-control me-2 rounded-pill" type="search" placeholder="Start Explore..." aria-label="Search" style="color: #dc3545;">
+                  <a class="btn btn-outline-danger rounded-pill" type="button" href="#">Explore</a>
+                </form><br>
+                <h5 style="text-align: center;color: #dc3545;"><u>TRY SEARCHING FOR</u></h5>
+                <div class="row" style="text-align: center;margin-top: 20px;">
+                <div class="col">
+                <a class="btn btn-outline-success rounded-pill" style="font-size: 70%;" href="#" role="button">MUSEUM</a>
+                <a class="btn btn-outline-danger rounded-pill" style="font-size: 70%;" href="#" role="button">SHOPPING</a>
+                <a class="btn btn-outline-success rounded-pill" style="font-size: 70%;" href="#" role="button">FOOD</a>
+                <a class="btn btn-outline-danger rounded-pill" style="font-size: 70%;" href="#" role="button">FAMILY</a>
+                <a class="btn btn-outline-success rounded-pill" style="font-size: 70%;" href="#" role="button">ADVENTURE</a>
+                <a class="btn btn-outline-danger rounded-pill" style="font-size: 70%;" href="#" role="button">RELAX</a>
+                <a class="btn btn-outline-success rounded-pill" style="font-size: 70%;" href="#" role="button">BEACH</a>
+                <a class="btn btn-outline-danger rounded-pill" style="font-size: 70%;" href="#" role="button">SPORTS</a>
+                <a class="btn btn-outline-success rounded-pill" style="font-size: 70%;" href="#" role="button">ART</a>
+                <a class="btn btn-outline-danger rounded-pill" style="font-size: 70%;" href="#" role="button">DESERT</a>
+                </div>
+                </div>
+              </div>
+          </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div>
+      <img src="./getaround/img1.jfif" class="w-100" alt="" height="500x">
+    </div>
+    <div style="border-left:10px solid #dc3545;border-right:10px solid #dc3545;">
+      <div>
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb me-3" style="font-size: 15px;margin-top: 10px;margin-left: 25px;">
+            <li class="breadcrumb-item"><a href="./mainPage.html" style="color: #dc3545;">Plan Your Trip</a></li>
+            <li class="breadcrumb-item" aria-current="page" style="color: #f56b79;">Getting Around</li>
+          </ol>
+        </nav>
+      </div>
+      <div style="text-align: center;color: #dc3545;margin-top: 30px;">
+        <h5>PLAN YOUR TRIP</h5>
+      </div>
+      <div>
+        <h1 style="text-align: center;color: #b80b1c;margin-top: 30px;text-shadow: 2px 2px 2px #693136;"><b>Getting Around</b></h1>
+        <h4 style="text-align: center;color: #c01f2f;margin-bottom: 10%;">" Live with no excuses and travel with no regrets "</h4>
+      </div>
+      <div class="container" style="margin-top: -5%;font-size: 20px;color: #cc1628;padding-left:10%;padding-right: 10%;">
+        <h1 style="font-size: 45px;color: #b80819;">Public transport</h1>
+        <p>Those who prefer independence and flexibility can easily move around the country using the accessible and affordable public transport system.</p><br>
+        <h4 style="color: #b80819;"><u>Bus Services</u></h4><br>
+        <p>Public transport bus services are generally based on regular operation of transit buses along a route calling at agreed bus stops according to a published public transport timetable.The names of different types of bus services vary according to local tradition or marketing, although services can be classified into basic types based on route length, frequency, the purpose of use and type of bus used.</p><br>
+        <h4 style="color: #b80819;"><u>Taxis</u></h4><br>
+        <p>Taxi Booking is an Inter-city taxi booking facilitator. We began this endeavor out of an individual trouble spot of paying two path charges for a single direction drop trip. Market Cabs charge two different ways, for the most part refering to the explanation of bringing empty back.</p><br>
+        <h4 style="color: #b80819;"><u>Ships</u></h4><br>
+        <p>Maritime transport (or ocean transport) and fluvial transport, or more generally waterborne transport, is the transport of people (passengers) or goods (cargo) via waterways. Freight transport by sea has been widely used throughout recorded history. The advent of aviation has diminished the importance of sea travel for passengers, though it is still popular for short trips and pleasure cruises.</p><br>
+        <img src="./getaround/img2" alt="" width="100%">
+        <p style="font-size: 15px;"><i class="fas fa-camera"></i> Cool Architecture </p><br>
+        <div class="row" style="margin-top: 10%;">
+          <div class="col-6">
+            <img src="./getaround/img3" width="100%">
+          </div>
+          <div class="col-6" style="margin-top:8%">
+            <h1 style="color: #99000f;">Metro Train</h1>
+            <h5>The Chennai Metro is a rapid transit system serving the city of Chennai, Tamil Nadu, India. It is the third longest metro system in India after Delhi Metro and Hyderabad metro.</h5>
+          </div>
+        </div>
+      </div>
+      <div class="container" style="margin-top: 10%;">
+        <div class="row">
+          <div class="col-3">
+            <div class="card shadow" style="width: 18rem;">
+              <img src="travelImg/train.jpg" class="card-img-top" height="200px">
+              <div class="card-body">
+                <h4 class="card-title text-center" style="color: rgb(89, 18, 155);">Trains</h4>
+                <p class="card-text text-center" style="color: rgb(156, 7, 7);">There are three main types of passenger trains: long-distance, short-distance, and trains within cities....</p>
+                <a href="#" class="btn btn-primary px-4" style="margin-left: 33%;"><i class="far fa-bookmark"></i> Book</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card shadow" style="width: 18rem;">
+              <img src="travelImg/bus.jpg" class="card-img-top" height="200px">
+              <div class="card-body">
+                <h4 class="card-title text-center" style="color: rgb(89, 18, 155);">Buses</h4>
+                <p class="card-text text-center" style="color: rgb(156, 7, 7);">Intercity bus service is a public transport service using coaches to carry passengers significant distances</p>
+                <a href="#" class="btn btn-primary px-4" style="margin-left: 33%;"><i class="far fa-bookmark"></i> Book</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card shadow" style="width: 18rem;">
+              <img src="travelImg/van.jpg" class="card-img-top" height="200px">
+              <div class="card-body">
+                <h4 class="card-title text-center" style="color: rgb(89, 18, 155);">Ships</h4>
+                <p class="card-text text-center" style="color: rgb(156, 7, 7);">Ships are generally distinguished from boats, based on size, shape, load capacity, and tradition...</p>
+                <a href="#" class="btn btn-primary px-4" style="margin-left: 33%;"><i class="far fa-bookmark"></i> Book</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card shadow" style="width: 18rem;">
+              <img src="travelImg/taxi.jpg" class="card-img-top" height="200px">
+              <div class="card-body">
+                <h4 class="card-title text-center" style="color: rgb(89, 18, 155);">Cabs</h4>
+                <p class="card-text text-center" style="color: rgb(156, 7, 7);">A taxicab, also known as a taxi or a cab, is a type of vehicle for hire with a driver often for a non-shared ride. ...</p>
+                <a href="#" class="btn btn-primary px-4" style="margin-left: 33%;"><i class="far fa-bookmark"></i> Book</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container mt-5" style="border-top: 2px solid #ec061d;">
+        <footer class="text-center text-danger m-3" >
+          <span style="font-size: 20px;">Follow us on</span><br>
+          <a href="#" style="color: #dc3545;"><i style="font-size: 30px;" class="fab fa-facebook-square me-2"></i></a>
+          <a href="#" style="color: #dc3545;"><i style="font-size: 30px;" class="fab fa-instagram me-2"></i></a>
+          <a href="#" style="color: #dc3545;"><i style="font-size: 30px;" class="fab fa-twitter-square me-2"></i></a>
+          <a href="#" style="color: #dc3545;"><i style="font-size: 30px;" class="fab fa-youtube-square"></i></a><br>
+        </footer>
+      </div>
+    </div>
+</body>
+</html>

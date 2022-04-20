@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="C:/Users/funlo/Desktop/project1/bootstrap-icons-1.5.0/">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>PLAN YOUR TRIP</title>
+    <link rel="Icon" href="../images/icon.png">
+    <style>
+      
+      .hover{
+        color: rgb(71, 38, 163);
+      }
+      .dblue{
+        color: rgb(65, 34, 150);
+        border: 1px solid rgb(65, 34, 150);
+        border-radius: 50rem !important;
+        text-decoration: none;
+        padding: 8px 14px;
+      }
+      .dblue:hover{
+        color: white;
+        background-color: rgb(65, 34, 150);
+      }
+      .blue{
+        color: white;
+        background-color: rgb(65, 34, 150);
+        border: 1px solid rgb(65, 34, 150);
+        border-radius: 5px !important;
+        text-decoration: none;
+        padding: 8px 14px;
+      }
+      .blue:hover{
+        color: white;
+        background-color: rgb(71, 38, 163);
+      }
+      .hover:hover{
+        color: white;
+        background-color: rgb(71, 38, 163);
+      }
+
+      .shadow{
+        box-shadow: 2px 2px 2px rgb(151, 150, 150);
+      }
+
+      .img_shadow:hover{
+        box-shadow: 0 4px 8px 0 #bbbabe, 0 6px 20px 0 #a1a1a1;
+      }
+
+      @media only screen and (max-width: 992px) {
+      .col-6 {
+          width: 50%;
+          margin-left: 1%;
+          margin-bottom: 3%;
+        }
+      }
+    </style>
+</head>
+<body style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <div>
+      <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(65, 34, 150);">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./mainPage.html"><i class="fal fa-tree-palm"></i> TRAVEL EXPLORA</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 p-2 mx-auto">
+              <li class="nav-item dropdown pe-3">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdownNav" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+                  Things To Do
+                </a>
+                <ul class="dropdown-menu bg-light" aria-labelledby="dropdownNav scroll">
+                  <li><a class="dropdown-item hover" href="./beachHolidays.html">Beach Holidays</a></li>
+                  <li><a class="dropdown-item hover" href="./shopping.html">Shopping</a></li>
+                  <li><a class="dropdown-item hover" href="./food.html">Food & drink</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown pe-3">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdownNav" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+                  Plan Your Trip
+                </a>
+                <ul class="dropdown-menu bg-light" aria-labelledby="dropdownNav">
+                  <li><a class="dropdown-item hover" href="./travelInfo.html">Travel information</a></li>
+                  <li><a class="dropdown-item hover" href="./gettingAround.html">Getting Around</a></li>
+                  <li><a class="dropdown-item hover" href="./accommodation.html">Accommodation</a></li>
+                </ul>
+              </li>
+              <li class="nav-item pe-3">
+                <a class="nav-link" aria-current="page" href="./bookByDestination.html">Book Travel</a>
+              </li>
+              <li class="nav-item dropdown pe-3">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdownNav" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+                  Contact
+                </a>
+                <ul class="dropdown-menu bg-light" aria-labelledby="dropdownNav">
+                  <li><a class="dropdown-item hover" href="./aboutUs.html">About Us</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item hover" href="./emailSignup.html">Email Signup</a></li>
+                </ul>
+              </li>
+            </ul>
+            <button class="btn btn-light rounded-circle me-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"><i class="fal fa-search"></i></button>
+            <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel" style="border-left: 10px solid rgb(65, 34, 150);border-right: 10px solid rgb(65, 34, 150);">
+              <div class="offcanvas-header">
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+            <div class="offcanvas-body">
+              <div class="container">
+                <form class="d-flex" style="padding-right: 30%;padding-left:30%;">
+                  <input class="form-control me-2 rounded-pill" type="search" placeholder="Start Explore..." aria-label="Search" style="color: rgb(65, 34, 150)">
+                  <a class="dblue rounded-pill"  type="button" href="#">Explore</a>
+                </form><br>
+                <h5 style="text-align: center;color: rgb(65, 34, 150);"><u>TRY SEARCHING FOR</u></h5>
+                <div class="row" style="text-align: center;margin-top: 10px;">
+                <div class="col">
+                <a class="dblue rounded-pill" style="font-size: 70%;" href="#" role="button">MUSEUM</a>
+                <a class="btn btn-outline-primary rounded-pill" style="font-size: 70%;" href="#" role="button">SHOPPING</a>
+                <a class="dblue rounded-pill" style="font-size: 70%;" href="#" role="button">FOOD</a>
+                <a class="btn btn-outline-primary rounded-pill" style="font-size: 70%;" href="#" role="button">FAMILY</a>
+                <a class="dblue rounded-pill" style="font-size: 70%;" href="#" role="button">ADVENTURE</a>
+                <a class="btn btn-outline-primary rounded-pill" style="font-size: 70%;" href="#" role="button">RELAX</a>
+                <a class="dblue rounded-pill" style="font-size: 70%;" href="#" role="button">BEACH</a>
+                <a class="btn btn-outline-primary rounded-pill" style="font-size: 70%;" href="#" role="button">SPORTS</a>
+                <a class="dblue rounded-pill" style="font-size: 70%;" href="#" role="button">ART</a>
+                <a class="btn btn-outline-primary rounded-pill" style="font-size: 70%;" href="#" role="button">DESERT</a>
+                </div>
+                </div>
+              </div>
+          </div>
+        </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div>
+      <img src="./travelImg/travel1.jpg" class="w-100" alt="" height="500x">
+    </div>
+    <div style="border-left:10px solid rgb(65, 34, 150);border-right:10px solid rgb(65, 34, 150);">
+      <div>
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb me-3" style="font-size: 15px;margin-top: 10px;margin-left: 25px;">
+            <li class="breadcrumb-item"><a href="./mainPage.html" style="color: rgb(65, 34, 150);">Plan Your Trip</a></li>
+            <li class="breadcrumb-item" aria-current="page" style="color: rgb(133, 98, 228)">Travel Information</li>
+          </ol>
+        </nav>
+      </div>
+      <div style="text-align: center;color: rgb(65, 34, 150);margin-top: 30px;">
+        <h5>PLAN YOUR TRIP</h5>
+        <h6><u>Air Lines</u></h6>
+      </div>
+      <div>
+        <h1 style="text-align: center;color: rgb(65, 34, 150);margin-top: 30px;text-shadow: 2px 2px 2px rgb(102, 54, 235);"><b>Travel information</b></h1>
+        <h4 style="text-align: center;color: rgb(36, 18, 85);margin-bottom: 10%;">Are you missing travel and looking for some Information ?<br>View here</h4>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <img src="./travelImg/img1.jpg" alt=""  height="400px" width="600px" class="img_shadow">
+          </div>
+          <div class="col-6" style="border-top:2px solid rgb(47, 5, 161);border-bottom:2px solid rgb(47, 5, 161);">
+            <h1 style="color: rgb(47, 5, 161);padding-top: 10%;margin-bottom: 5%;"><u>IndiGo</u></h1>
+            <h5 style="color: rgb(58, 32, 131);margin-bottom: 3%;">IndiGo is an Indian low-cost airline headquartered in Gurugram, Haryana, India. It is the largest airline in India by passengers carried and fleet size, with a 59.24% domestic market share as of August 2020.</h5>
+            <h4 style="color: rgb(58, 32, 131);"><span style="color: rgb(175, 0, 0);">Stock price:</span> INDIGO (NSE) ₹1,790.00<span style="color: red;">-3.05 (-0.17%)</span><br><span style="color: rgb(175, 0, 0);margin-top: 3%;">Customer service: </span> 0124 617 3838</h4>
+            <button type="button" class="blue mt-2">Explore More</button>
+          </div>
+        </div>
+        <div class="row mt-5" style="padding-top: 6%;">
+          <div class="col-6" style="border-top:2px solid rgb(47, 5, 161);border-bottom:2px solid rgb(47, 5, 161);">
+            <h1 style="color: rgb(47, 5, 161);padding-top: 10%;margin-bottom: 5%;"><u>Air India</u></h1>
+            <h5 style="color: rgb(58, 32, 131);margin-bottom: 3%;">Air India is the flag carrier airline of India, headquartered at New Delhi. It is owned by Air India Limited, a government-owned enterprise, and operates a fleet of Airbus and Boeing aircraft serving 102 domestic and international destinations.</h5>
+            <h4 style="color: rgb(58, 32, 131);"><span style="color: rgb(175, 0, 0);">Parent organization:</span> Air India Limited<br><span style="color: rgb(175, 0, 0);margin-top: 3%;">Customer service: </span> 0124 264 1407</h4>
+            <button type="button" class="blue mt-2">Explore More</button>
+          </div>
+          <div class="col-6">
+            <img src="./travelImg/img2.jpg" alt="" height="400px" width="600px" class="img_shadow">
+          </div>
+        </div>
+        <div class="row mt-5" style="padding-top: 6%;">
+          <div class="col-6">
+            <img src="./travelImg/img3.jpg" alt="" height="400px" width="600px" class="img_shadow">
+          </div>
+          <div class="col-6" style="border-top:2px solid rgb(47, 5, 161);border-bottom:2px solid rgb(47, 5, 161);">
+            <h1 style="color: rgb(47, 5, 161);padding-top: 10%;margin-bottom: 5%;"><u>SpiceJet</u></h1>
+            <h5 style="color: rgb(58, 32, 131);margin-bottom: 3%;"> It is the second largest airline in the country by number of domestic passengers carried, with a market share of 13.6% as of March 2019. </h5>
+            <h4 style="color: rgb(58, 32, 131);"><span style="color: rgb(175, 0, 0);">Stock price:</span> SPICEJET (NSE) ₹80.15 <span style="color: rgb(97, 233, 97);">+0.50 (+0.63%)</span><br><span style="color: rgb(175, 0, 0);margin-top: 3%;">Customer service: </span> 096540 03333</h4>
+            <button type="button" class="blue mt-2">Explore More</button>
+          </div>
+        </div>
+        <div class="row mt-5" style="padding-top: 6%;">
+          <div class="col-6" style="border-top:2px solid rgb(47, 5, 161);border-bottom:2px solid rgb(47, 5, 161);">
+            <h1 style="color: rgb(47, 5, 161);padding-top: 10%;margin-bottom: 5%;"><u>GoAir</u></h1>
+            <h5 style="color: rgb(58, 32, 131);margin-bottom: 3%;">Go First, founded as GoAir, is an Indian ultra-low-cost airline based in Mumbai, Maharashtra. In October 2017, it was the fifth largest airline in India with an 8.4% passenger market share.</h5>
+            <h4 style="color: rgb(58, 32, 131);"><span style="color: rgb(175, 0, 0);">Parent organization:</span> Wadia Group<br><span style="color: rgb(175, 0, 0);margin-top: 3%;">Customer service: </span> 1800 210 0999</h4>
+            <button type="button" class="blue mt-2">Explore More</button>
+          </div>
+          <div class="col-6">
+            <img src="./travelImg/img4.jpg" alt="" height="400px" width="600px" class="img_shadow">
+          </div>
+        </div>
+        <div class="row mt-5" style="padding-top: 6%;">
+          <div class="col-6">
+            <img src="./travelImg/img5.jpg" alt="" height="400px" width="600px" class="img_shadow">
+          </div>
+          <div class="col-6" style="border-top:2px solid rgb(47, 5, 161);border-bottom:2px solid rgb(47, 5, 161);">
+            <h1 style="color: rgb(47, 5, 161);padding-top: 10%;margin-bottom: 5%;"><u>AirAsia India</u></h1>
+            <h5 style="color: rgb(58, 32, 131);margin-bottom: 3%;">AirAsia India is an airline in India headquartered in Bengaluru, Karnataka. The airline is a joint venture with Tata Sons holding 83.67% stake in the airline and AirAsia Investment Limited holding 16.33% stake.</h5>
+            <h4 style="color: rgb(58, 32, 131);"><span style="color: rgb(175, 0, 0);">Parent organization:</span>  Tata Group (83.67%)<br><span style="color: rgb(175, 0, 0);margin-top: 3%;">Customer service: </span> 080 4666 2222</h4>
+            <button type="button" class="blue mt-2">Explore More</button>
+          </div>
+        </div>
+        <div class="row mt-5" style="padding-top: 6%;">
+          <div class="col-6" style="border-top:2px solid rgb(47, 5, 161);border-bottom:2px solid rgb(47, 5, 161);">
+            <h1 style="color: rgb(47, 5, 161);padding-top: 10%;margin-bottom: 5%;"><u>Vistara</u></h1>
+            <h5 style="color: rgb(58, 32, 131);margin-bottom: 3%;">Tata SIA Airlines Limited, operating as Vistara, is an Indian full-service airline, based in Gurgaon, with its hub at Indira Gandhi International Airport. The carrier, a joint venture between Tata Sons and Singapore Airlines.</h5>
+            <h4 style="color: rgb(58, 32, 131);"><span style="color: rgb(175, 0, 0);">Parent organization:</span> Tata Sons (51%)<br><span style="color: rgb(175, 0, 0);margin-top: 3%;">Customer service: </span> 092892 28888</h4>
+            <button type="button" class="blue mt-2">Explore More</button>
+          </div>
+          <div class="col-6">
+            <img src="./travelImg/img6.jpg" alt="" height="400px" width="600px" class="img_shadow">
+          </div>
+        </div>
+        <div class="row mt-5" style="padding-top: 6%;padding-bottom: 6%;">
+          <div class="col-6">
+            <img src="./travelImg/img7" alt="" height="400px" width="600px" class="img_shadow">
+          </div>
+          <div class="col-6" style="border-top:2px solid rgb(47, 5, 161);border-bottom:2px solid rgb(47, 5, 161);">
+            <h1 style="color: rgb(47, 5, 161);padding-top: 10%;margin-bottom: 5%;"><u>Alliance Air</u></h1>
+            <h5 style="color: rgb(58, 32, 131);margin-bottom: 3%;">Alliance Air is an Indian regional airline and a wholly owned subsidiary of Air India. It was founded in 1996 and mainly operates domestic routes as part of the government's Regional Connectivity Scheme.</h5>
+            <h4 style="color: rgb(58, 32, 131);"><span style="color: rgb(175, 0, 0);">Parent organization:</span> Air India Limited<br><span style="color: rgb(175, 0, 0);margin-top: 3%;">Commenced operations: </span> April 1996; 25 years ago</h4>
+            <button type="button" class="blue mt-2">Explore More</button>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-3">
+            <div class="card shadow" style="width: 18rem;">
+              <img src="travelImg/train.jpg" class="card-img-top" height="200px">
+              <div class="card-body">
+                <h4 class="card-title text-center" style="color: rgb(156, 7, 7);">Trains</h4>
+                <p class="card-text text-center" style="color: rgb(89, 18, 155);">There are three main types of passenger trains: long-distance, short-distance, and trains within cities....</p>
+                <a href="./bookByDestination.html" class="btn btn-danger px-4" style="margin-left: 33%;"><i class="far fa-bookmark"></i> Book</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card shadow" style="width: 18rem;">
+              <img src="travelImg/bus.jpg" class="card-img-top" height="200px">
+              <div class="card-body">
+                <h4 class="card-title text-center" style="color: rgb(156, 7, 7);">Buses</h4>
+                <p class="card-text text-center" style="color: rgb(89, 18, 155);">Intercity bus service is a public transport service using coaches to carry passengers distances ... </p>
+                <a href="./bookByDestination.html" class="btn btn-danger px-4" style="margin-left: 33%;"><i class="far fa-bookmark"></i> Book</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card shadow" style="width: 18rem;">
+              <img src="travelImg/van.jpg" class="card-img-top" height="200px">
+              <div class="card-body">
+                <h4 class="card-title text-center" style="color: rgb(156, 7, 7);">Ships</h4>
+                <p class="card-text text-center" style="color: rgb(89, 18, 155);">Ships are generally distinguished from boats, based on size, shape, load capacity, and tradition...</p>
+                <a href="./bookByDestination.html" class="btn btn-danger px-4" style="margin-left: 33%;"><i class="far fa-bookmark"></i> Book</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card shadow" style="width: 18rem;">
+              <img src="travelImg/taxi.jpg" class="card-img-top" height="200px">
+              <div class="card-body">
+                <h4 class="card-title text-center" style="color: rgb(156, 7, 7);">Cabs</h4>
+                <p class="card-text text-center" style="color: rgb(89, 18, 155);">A taxicab, also known as a taxi or a cab, is a type of vehicle for hire with a driver often for a non-shared ride. ...</p>
+                <a href="./bookByDestination.html" class="btn btn-danger px-4" style="margin-left: 33%;"><i class="far fa-bookmark"></i> Book</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container mt-5" style="border-top: 2px solid rgb(65, 34, 150)">
+        <footer class="text-center m-3" style="color:rgb(65, 34, 150);">
+          <span style="font-size: 20px;">Follow us on</span><br>
+          <a href="#" style="color: rgb(65, 34, 150);"><i style="font-size: 30px;" class="fab fa-facebook-square me-2"></i></a>
+          <a href="#" style="color: rgb(65, 34, 150);"><i style="font-size: 30px;" class="fab fa-instagram me-2"></i></a>
+          <a href="#" style="color: rgb(65, 34, 150);"><i style="font-size: 30px;" class="fab fa-twitter-square me-2"></i></a>
+          <a href="#" style="color: rgb(65, 34, 150);"><i style="font-size: 30px;" class="fab fa-youtube-square"></i></a><br>
+        </footer>
+      </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="C:/Users/funlo/Desktop/project1/bootstrap-icons-1.5.0/">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>BOOK TRAVEL</title>
+    <link rel="Icon" href="../images/icon.png">
+    <style>
+      .hover{
+        color: brown;
+      }
+      .hover:hover{
+        background-color: brown;
+        color: white;
+      }
+      .brown{
+        color: brown;
+        border: 1px solid brown;
+        border-radius: 50rem !important;
+        text-decoration: none;
+        padding: 8px 14px;
+      }
+
+      .brown:hover{
+        background-color: brown;
+        color: white;
+      }
+
+      .brown_btn{
+        color: #fff;
+        font-size:15px;
+        border: 1px solid brown;
+        background-color: brown;
+        text-decoration: none;
+        padding: 6px 12px;
+        border-radius: 7px;
+      }
+
+      .brown_btn:hover{
+        color: rgb(255, 241, 241);
+        background-color: rgb(167, 20, 20);
+      }
+    </style>
+</head>
+<body style="background-color: rgb(255, 221, 202);">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <div>
+      <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: brown;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./mainPage.html"><i class="fal fa-tree-palm"></i> TRAVEL EXPLORA</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 p-2 mx-auto">
+              <li class="nav-item dropdown pe-3">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdownNav" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+                  Things To Do
+                </a>
+                <ul class="dropdown-menu bg-light" aria-labelledby="dropdownNav scroll">
+                  <li><a class="dropdown-item hover" href="./beachHolidays.html">Beach Holidays</a></li>
+                  <li><a class="dropdown-item hover" href="./shopping.html">Shopping</a></li>
+                  <li><a class="dropdown-item hover" href="./food.html">Food & drink</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown pe-3">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdownNav" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+                  Plan Your Trip
+                </a>
+                <ul class="dropdown-menu bg-light" aria-labelledby="dropdownNav">
+                  <li><a class="dropdown-item hover" href="./travelInfo.html">Travel information</a></li>
+                  <li><a class="dropdown-item hover" href="./gettingAround.html">Getting Around</a></li>
+                  <li><a class="dropdown-item hover" href="./accommodation.html">Accommodation</a></li>
+                </ul>
+              </li>
+              <li class="nav-item pe-3">
+                <a class="nav-link" aria-current="page" href="./bookByDestination.html">Book Travel</a>
+              </li>
+              <li class="nav-item dropdown pe-3">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdownNav" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+                  Contact
+                </a>
+                <ul class="dropdown-menu bg-light" aria-labelledby="dropdownNav">
+                  <li><a class="dropdown-item hover" href="./aboutUs.html">About Us</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item hover" href="./emailSignup.html">Email Signup</a></li>
+                </ul>
+              </li>
+            </ul>
+            <button class="btn btn-light rounded-circle me-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"><i class="fal fa-search"></i></button>
+            <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel" style="border-left: 10px solid brown;border-right: 10px solid brown;">
+              <div class="offcanvas-header">
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+            <div class="offcanvas-body">
+              <div class="container">
+                <form class="d-flex" style="padding-right: 30%;padding-left:30%;">
+                  <input class="form-control me-2 rounded-pill" type="search" placeholder="Start Explore..." aria-label="Search" style="color: brown">
+                  <a class="brown rounded-pill" type="button" href="#">Explore</a>
+                </form><br>
+                <h5 style="text-align: center;color: brown;"><u>TRY SEARCHING FOR</u></h5>
+                <div class="row" style="text-align: center;margin-top: 20px;">
+                <div class="col">
+                <a class="brown rounded-pill" style="font-size: 70%;" href="#" role="button">MUSEUM</a>
+                <a class="btn btn-outline-danger rounded-pill" style="font-size: 70%;" href="#" role="button">SHOPPING</a>
+                <a class="brown rounded-pill" style="font-size: 70%;" href="#" role="button">FOOD</a>
+                <a class="btn btn-outline-danger rounded-pill" style="font-size: 70%;" href="#" role="button">FAMILY</a>
+                <a class="brown rounded-pill" style="font-size: 70%;" href="#" role="button">ADVENTURE</a>
+                <a class="btn btn-outline-danger rounded-pill" style="font-size: 70%;" href="#" role="button">RELAX</a>
+                <a class="brown rounded-pill" style="font-size: 70%;" href="#" role="button">BEACH</a>
+                <a class="btn btn-outline-danger rounded-pill" style="font-size: 70%;" href="#" role="button">SPORTS</a>
+                <a class="brown rounded-pill" style="font-size: 70%;" href="#" role="button">ART</a>
+                <a class="btn btn-outline-danger rounded-pill" style="font-size: 70%;" href="#" role="button">DESERT</a>
+                </div>
+                </div>
+              </div>
+          </div>
+        </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div>
+      <img src="./bookbyimages/img.jpg" class="w-100">
+    </div>
+    <div style="border-left: 10px solid brown;border-right: 10px solid brown;">
+      <div>
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb me-3" style="font-size: 15px;margin-top: 10px;margin-left: 25px;">
+            <p style="color: brown;">>></p>
+            <li class="breadcrumb-item"><a href="./mainPage.html" style="color: brown;">Book Travel</a></li>
+          </ol>
+        </nav>
+      </div>
+      <div>
+        <h1 style="text-align: center;color: brown;margin-top: 30px;text-shadow: 2px 2px 2px rgb(189, 48, 48);"><b>BOOK TRAVEL</b></h1>
+        <h4 style="color: rgb(133, 4, 4);margin-top: 10px;text-align: center;">Keep Calm And Pre-Book your Destination</h4>
+      </div>
+      <div class="container" style="margin-top: 7%;color:rgb(105, 26, 26);font-size: 20px;padding-left:15%;padding-right: 15%;">
+        <div class="row mb-5">
+          <h2 class="mb-5" style="color: rgb(141, 17, 17);text-align: center;"><u>Flight Booking</u></h2><br>
+          <div class="col-6" style="border-right: 2px solid brown;padding-top: 5%;">
+            <h4 style="color: rgb(139, 0, 0);">Flight Booking - Domestic Flight Offer</h4><br>
+            <h5 style="color: rgb(160, 84, 84);">Avail Budget Airfare While Booking Your Flight Tickets On MakeMyTrip. Book Now & Save Big! Empowering the Indian Traveller With Instant Bookings and Comprehensive Choices.</h5><br>
+            <h5 style="color: rgba(78, 0, 0, 0.76);"><b>Phone:</b> 0422 434 6373</h5>
+          </div>
+          <div class="col-6">
+            <img src="./bookbyimages/flight.jpg" alt="" width="100%" style="box-shadow: 2px 5px 5px 2px  rgb(170, 73, 73);border-radius:5px;"><br><br>
+            <a class="brown_btn" style="margin-left: 40%;box-shadow: 0px 4px 4px 2px  rgb(170, 73, 73);" href="#"><i class="fas fa-plane-departure"></i> Book</a>
+          </div>
+        </div>
+        <div class="row mb-5">
+          <h2 class="mb-5" style="color: rgb(141, 17, 17);text-align: center;"><u>Bus Booking</u></h2><br>
+          <div class="col-6" style="border-right: 2px solid brown;padding-top: 5%;">
+            <h4 style="color: rgb(139, 0, 0);">Bus Booking - save upto 15%</h4><br>
+            <h5 style="color: rgb(160, 84, 84);">Use code VIADOM to get discounts upto INR 1000 on Domestic Flights. Lowest Budget Airline Fare Guaranteed and Easy Booking in 3 Simple Steps. Live on Chat.</h5><br>
+            <h5 style="color: rgba(78, 0, 0, 0.76);"><b>Phone:</b> 0422 421 4988</h5>
+          </div>
+          <div class="col-6">
+            <img src="./bookbyimages/bus.jpg" alt="" width="100%" style="box-shadow: 2px 5px 5px 2px  rgb(170, 73, 73);border-radius:5px;"><br><br>
+            <a class="brown_btn" style="margin-left: 40%;box-shadow: 0px 4px 4px 2px  rgb(170, 73, 73);" href="#"><i class="fas fa-bus-alt"></i> Book</a>
+          </div>
+        </div>
+        <div class="row mb-5">
+          <h2 class="mb-5" style="color: rgb(141, 17, 17);text-align: center;"><u>Train Booking</u></h2><br>
+          <div class="col-6" style="border-right: 2px solid brown;padding-top: 5%;">
+            <h4 style="color: rgb(139, 0, 0);">Book IRCTC Train Tickets</h4><br>
+            <h5 style="color: rgb(160, 84, 84);">Now book your train tickets in a jiffy with these easy steps & get your PNR: - Visit RailYatri to select the boarding & arrival destinations.</h5><br>
+            <h5 style="color: rgba(78, 0, 0, 0.76);"><b>Phone:</b> 0755-4090600</h5>
+          </div>
+          <div class="col-6">
+            <img src="./bookbyimages/train.jpg" alt="" width="100%" style="box-shadow: 2px 5px 5px 2px  rgb(170, 73, 73);border-radius:5px;"><br><br>
+            <a class="brown_btn" style="margin-left: 40%;box-shadow: 0px 4px 4px 2px  rgb(170, 73, 73);" href="#"><i class="fas fa-subway"></i> Book</a>
+          </div>
+        </div>
+        <div class="row mb-5">
+          <h2 class="mb-5" style="color: rgb(141, 17, 17);text-align: center;"><u>Ship Booking</u></h2><br>
+          <div class="col-6" style="border-right: 2px solid brown;padding-top: 5%;">
+            <h4 style="color: rgb(139, 0, 0);">Ship Booking Contacts</h4><br>
+            <h5 style="color: rgb(160, 84, 84);">The SCI, as agent for Andaman & Nicobar Administration, manages ships, plying between Mainland (Chennai, Kolkata & Vizag)</h5><br>
+            <h5 style="color: rgba(78, 0, 0, 0.76);"><b>Phone:</b> +213 (0)23 59 93 10 </h5>
+          </div>
+          <div class="col-6">
+            <img src="./bookbyimages/ship.jpg" alt="" width="100%" style="box-shadow: 2px 5px 5px 2px  rgb(170, 73, 73);border-radius:5px;"><br><br>
+            <a class="brown_btn" style="margin-left: 40%;box-shadow: 0px 4px 4px 2px  rgb(170, 73, 73);" href="#"><i class="fas fa-ship"></i> Book</a>
+          </div>
+        </div>
+        <div class="row mb-5">
+          <h2 class="mb-5" style="color: rgb(141, 17, 17);text-align: center;"><u>Cab Booking</u></h2><br>
+          <div class="col-6" style="border-right: 2px solid brown;padding-top: 5%;">
+            <h4 style="color: rgb(139, 0, 0);">Book Cabs Nearby at Best Price</h4><br>
+            <h5 style="color: rgb(160, 84, 84);">Reliable outstation taxi services in Tamilnadu, Bangalore, Pondicherry, Kerala & Andhra. Why Pay for Two Way Taxi Fare? Play Only For Drop.</h5><br>
+            <h5 style="color: rgba(78, 0, 0, 0.76);"><b>Phone:</b> 094999 22073</h5>
+          </div>
+          <div class="col-6">
+            <img src="./bookbyimages/cab.jpg" alt="" width="100%" style="box-shadow: 2px 5px 5px 2px  rgb(170, 73, 73);border-radius:5px;"><br><br>
+            <a class="brown_btn" style="margin-left: 40%;box-shadow: 0px 4px 4px 2px  rgb(170, 73, 73);" href="#"><i class="fas fa-taxi"></i> Book</a>
+          </div>
+        </div>
+      </div>
+      <div class="container mt-5" style="border-top: 2px solid brown;">
+        <footer class="text-center m-3" >
+          <span style="color: brown; font-size: 20px;">Follow us on</span><br>
+          <a href="#" style="color: brown"><i style="font-size: 30px;" class="fab fa-facebook-square me-2"></i></a>
+          <a href="#" style="color: brown"><i style="font-size: 30px;" class="fab fa-instagram me-2"></i></a>
+          <a href="#" style="color: brown"><i style="font-size: 30px;" class="fab fa-twitter-square me-2"></i></a>
+          <a href="#" style="color: brown"><i style="font-size: 30px;" class="fab fa-youtube-square"></i></a><br>
+        </footer>
+      </div>
+    </div>
+</body>
+</html>

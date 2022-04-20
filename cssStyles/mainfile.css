@@ -1,0 +1,136 @@
+   .title{
+    color: #dc3545;
+    padding-left: 70px;
+    padding: 0 0 0 130px;
+   }
+
+    .form_body{
+      margin-left: 25%;
+      margin-right: 25%;
+    }
+    .hover{
+      color: #dc3545;
+    }
+    .hover:hover{
+      background-color: #dc3545;
+      color: #fff;
+    }
+
+    .btn_right{
+        margin-right: 28%;
+    }
+    
+    .padding_left{
+        padding-left: 30%;
+    }
+
+    
+    #nav_form{
+        margin-right: 25%;
+    }
+    
+    .margins{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .icons{
+        font-size: 30px;
+    }
+
+    .icons_1{
+        font-size: 20px;
+    }
+
+    .form-control{
+      border: 1px solid #cc3544;
+    }
+    
+
+    @media only screen and (max-width: 600px) {
+      .mx-3 {
+         font-size: 15px;
+         margin-right: 1rem !important;
+         padding-left: 120px;
+         padding-right: 120px;
+      }
+
+      .title{
+        padding: 0 0 0 60px;
+      }
+
+      .modal-body{
+        padding: 0rem;
+      }
+
+      #nav_form{
+          margin-right: 15%;
+      }
+      .pl_1{
+        padding-right: 0;
+      }
+
+      .btn_right{
+        margin-right: 15%;
+      }
+
+      .img_carousel{
+        height: 200px;
+      }
+
+      .btn_responsive{
+        display: none;
+      }
+
+      .margins{
+          padding-left: 5%;
+          margin-right: 5%;
+      }
+      .heading_text{
+        font-size: 20px;
+      }
+
+      .body_text{
+        font-size: 15px;
+      }
+
+      .form_body{
+        margin-left: 1%;
+        margin-right: -2%;
+      }
+
+      .form_text{
+        font-size: 12px;
+      }
+
+      .form-control{
+        padding: 3px 10px;
+      }
+      
+      .button{
+        padding: 3px 10px;
+      }
+
+      .button_footer{
+        padding: 3px 10px;
+        margin-bottom: 5%;
+      }
+
+      .pt-5{
+        padding-top: 1rem !important;
+      }
+
+      .padding_left{
+        padding-left: 19%;
+      }
+
+      .icons{
+        font-size: 18px;
+      }
+
+      .icons_1{
+          font-size: 16px;
+      }
+
+     }
+    

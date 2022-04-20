@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="C:/Users/funlo/Desktop/project1/bootstrap-icons-1.5.0/">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>CONTACT</title>
+    <link rel="Icon" href="../images/icon.png">
+    <style>
+      body{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background:url(./emailimg/img1.jpg);
+        background: no-repeat cover;
+        background-position-y: 80%;
+      }
+
+      .hover{
+        color:#ffffff;
+      }
+
+      .hover:hover{
+        background-color: rgb(212, 212, 212);
+        color:black;
+      }
+
+      .dropdown-menu{
+        background-color: rgba(0, 0, 0, 0.164);
+      }
+
+      .offcanvas{
+        background-color:rgba(0, 0, 0, 0.822);
+      }
+
+      .form_style{
+        justify-content: center;
+        margin: 5% 30% 6% 30%;
+        background-color:rgba(0, 0, 0, 0.438);
+        padding: 5% 5% 4% 5%;
+        border-radius: 5px;
+      }
+
+      .btn_align{
+        margin-top: 10%;
+        margin-left: 33%;
+      }
+    </style>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <div>
+      <nav class="navbar navbar-expand-lg navbar-dark ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./mainPage.html"><i class="fal fa-tree-palm"></i> TRAVEL EXPLORA</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 p-2 mx-auto">
+              <li class="nav-item dropdown pe-3">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdownNav" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+                  Things To Do
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownNav scroll">
+                  <li><a class="dropdown-item hover" href="./beachHolidays.html">Beach Holidays</a></li>
+                  <li><a class="dropdown-item hover" href="./shopping.html">Shopping</a></li>
+                  <li><a class="dropdown-item hover" href="./food.html">Food & drink</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown pe-3">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdownNav" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+                  Plan Your Trip
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownNav">
+                  <li><a class="dropdown-item hover" href="./travelInfo.html">Travel information</a></li>
+                  <li><a class="dropdown-item hover" href="./gettingAround.html">Getting Around</a></li>
+                  <li><a class="dropdown-item hover" href="./accommodation.html">Accommodation</a></li>
+                </ul>
+              </li>
+              <li class="nav-item pe-3">
+                <a class="nav-link" aria-current="page" href="./bookByDestination.html">Book Travel</a>
+              </li>
+              <li class="nav-item dropdown pe-3">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdownNav" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+                  Contact
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownNav">
+                  <li><a class="dropdown-item hover" href="./aboutUs.html">About Us</a></li>
+                  <li><a class="dropdown-item hover" href="./emailSignup.html">Email Signup</a></li>
+                </ul>
+              </li>
+            </ul>
+            <button class="btn btn-light rounded-circle me-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"><i class="fal fa-search"></i></button>
+            <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel" style="border-left: 10px solid #00e0fd;;border-right: 10px solid #00e0fd;">
+              <div class="offcanvas-header">
+              <button type="button" class="btn-close btn-light text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+            <div class="offcanvas-body">
+              <div class="container">
+                <form class="d-flex" style="padding-right: 30%;padding-left:30%;">
+                  <input style="color: #0026fd;" class="form-control me-2 rounded-pill" type="search" placeholder="Start Explore..." aria-label="Search">
+                  <a class="btn btn-outline-info rounded-pill" type="button" href="#">Explore</a>
+                </form><br>
+                <h5 style="text-align: center;color: #00e0fd;"><u>TRY SEARCHING FOR</u></h5>
+                <div class="row" style="text-align: center;margin-top: 20px;">
+                <div class="col">
+                <a class="btn btn-outline-light rounded-pill" style="font-size: 70%;" href="#" role="button">MUSEUM</a>
+                <a class="btn btn-outline-info rounded-pill" style="font-size: 70%;" href="#" role="button">SHOPPING</a>
+                <a class="btn btn-outline-light rounded-pill" style="font-size: 70%;" href="#" role="button">FOOD</a>
+                <a class="btn btn-outline-info rounded-pill" style="font-size: 70%;" href="#" role="button">FAMILY</a>
+                <a class="btn btn-outline-light rounded-pill" style="font-size: 70%;" href="#" role="button">ADVENTURE</a>
+                <a class="btn btn-outline-info rounded-pill" style="font-size: 70%;" href="#" role="button">RELAX</a>
+                <a class="btn btn-outline-light rounded-pill" style="font-size: 70%;" href="#" role="button">BEACH</a>
+                <a class="btn btn-outline-info rounded-pill" style="font-size: 70%;" href="#" role="button">SPORTS</a>
+                <a class="btn btn-outline-light rounded-pill" style="font-size: 70%;" href="#" role="button">ART</a>
+                <a class="btn btn-outline-info rounded-pill" style="font-size: 70%;" href="#" role="button">DESERT</a>
+                </div>
+                </div>
+              </div>
+          </div>
+        </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="container">  
+        <form method="POST" style="color: #abb4bb;">
+          <div class="form_style">
+          <h2 style="text-align: center;padding-bottom: 5%;color: #72b8ef;">Make Your Vacation Comfortable</h2>
+          <div class="form-group">
+            <label for="name" style="font-size: 25px;"><i class="fas fa-user-circle"></i> Name :</label>
+            <input type="text" id="name" class="form-control rounded-pill" placeholder="Enter Your Name.....">  
+          </div><br>
+          <div class="form-group">
+            <label for="email" style="font-size: 25px;"><i class="fas fa-envelope"></i> Email :</label>
+            <input type="email" id="email" class="form-control rounded-pill" placeholder="Enter Your Email.....">  
+          </div>
+          <div>
+            <a href="./mainPage.html" type="button" class="btn btn-info btn_align"><i class="fas fa-paper-plane"></i> Send Message</a>
+          </div>
+        </div>
+        </form>
+    </div>
+    <div class="container mt-5" style="border-top: 2px solid #323335;">
+      <footer class="text-center m-3" >
+        <span style="font-size: 20px;">Follow us on</span><br>
+        <a href="#" style="color: #212529;"><i style="font-size: 30px;" class="fab fa-facebook-square me-2"></i></a>
+        <a href="#" style="color: #212529;"><i style="font-size: 30px;" class="fab fa-instagram me-2"></i></a>
+        <a href="#" style="color: #212529;"><i style="font-size: 30px;" class="fab fa-twitter-square me-2"></i></a>
+        <a href="#" style="color: #212529;"><i style="font-size: 30px;" class="fab fa-youtube-square"></i></a><br>
+      </footer>
+    </div>
+</body>
+</html>

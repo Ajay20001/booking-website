@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="C:/Users/funlo/Desktop/project1/bootstrap-icons-1.5.0/">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>BEACH HOLIDAYS</title>
+    <link rel="Icon" href="../images/icon.png">
+    <link rel="stylesheet" href="./cssStyles/beachholidays.css">
+</head>
+<body style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <div>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./mainPage.html"><i class="fal fa-tree-palm"></i> TRAVEL EXPLORA</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 p-2 mx-auto">
+              <li class="nav-item dropdown pe-3">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdownNav" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+                  Things To Do
+                </a>
+                <ul class="dropdown-menu bg-light" aria-labelledby="dropdownNav scroll">
+                  <li><a class="dropdown-item hover" href="./beachHolidays.html">Beach Holidays</a></li>
+                  <li><a class="dropdown-item hover" href="./shopping.html">Shopping</a></li>
+                  <li><a class="dropdown-item hover" href="./food.html">Food & drink</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown pe-3">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdownNav" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+                  Plan Your Trip
+                </a>
+                <ul class="dropdown-menu bg-light" aria-labelledby="dropdownNav">
+                  <li><a class="dropdown-item hover" href="./travelInfo.html">Travel information</a></li>
+                  <li><a class="dropdown-item hover" href="./gettingAround.html">Getting Around</a></li>
+                  <li><a class="dropdown-item hover" href="./accommodation.html">Accommodation</a></li>
+                </ul>
+              </li>
+              <li class="nav-item pe-3">
+                <a class="nav-link" aria-current="page" href="./bookByDestination.html">Book Travel</a>
+              </li>
+              <li class="nav-item dropdown pe-3">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdownNav" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+                  Contact
+                </a>
+                <ul class="dropdown-menu bg-light" aria-labelledby="dropdownNav">
+                  <li><a class="dropdown-item hover" href="./aboutUs.html">About Us</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item hover" href="./emailSignup.html">Email Signup</a></li>
+                </ul>
+              </li>
+            </ul>
+            <button class="btn btn-light rounded-circle me-3 btn_responsive" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"><i class="fal fa-search"></i></button>
+            <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel" style="border-left: 10px solid #0d6efd;border-right: 10px solid #0d6efd;">
+              <div class="offcanvas-header">
+              <button type="button" class="btn-close text-reset " data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+            <div class="offcanvas-body">
+              <div class="container">
+                <form class="d-flex" style="padding-right: 30%;padding-left:30%;">
+                  <input class="form-control me-2 rounded-pill" type="search" placeholder="Start Explore..." aria-label="Search" style="color: 0d6efd">
+                  <a class="btn btn-outline-info rounded-pill"  type="button" href="#">Explore</a>
+                </form><br>
+                <h5 style="text-align: center;color: #2600ff;"><u>TRY SEARCHING FOR</u></h5>
+                <div class="row" style="text-align: center;margin-top: 10px;">
+                <div class="col">
+                <a class="btn btn-outline-primary rounded-pill" style="font-size: 70%;" href="#" role="button">MUSEUM</a>
+                <a class="btn btn-outline-info rounded-pill" style="font-size: 70%;" href="#" role="button">SHOPPING</a>
+                <a class="btn btn-outline-primary rounded-pill" style="font-size: 70%;" href="#" role="button">FOOD</a>
+                <a class="btn btn-outline-info rounded-pill" style="font-size: 70%;" href="#" role="button">FAMILY</a>
+                <a class="btn btn-outline-primary rounded-pill" style="font-size: 70%;" href="#" role="button">ADVENTURE</a>
+                <a class="btn btn-outline-info rounded-pill" style="font-size: 70%;" href="#" role="button">RELAX</a>
+                <a class="btn btn-outline-primary rounded-pill" style="font-size: 70%;" href="#" role="button">BEACH</a>
+                <a class="btn btn-outline-info rounded-pill" style="font-size: 70%;" href="#" role="button">SPORTS</a>
+                <a class="btn btn-outline-primary rounded-pill" style="font-size: 70%;" href="#" role="button">ART</a>
+                <a class="btn btn-outline-info rounded-pill" style="font-size: 70%;" href="#" role="button">DESERT</a>
+                </div>
+                </div>
+              </div>
+          </div>
+        </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+      <div>
+        <img src="./images/edtmg4.jpg" class="w-100 img_width" alt="Image1" height="500x">
+      </div>
+      <div class="left_right_border">
+      <div>
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb me-3 breadcrumb_margin">
+            <li class="breadcrumb-item breadcrumb_font"><a href="./mainPage.html">Things to do</a></li>
+            <li class="breadcrumb-item breadcrumb_font" aria-current="page" style="color: rgb(130, 216, 245);">Beach Holidays</li>
+          </ol>
+        </nav>
+      </div>
+      <div style="text-align: center;color: #0400ff;margin-top: 30px;">
+        <h5 class="head_text">THINGS TO DO</h5>
+      </div>
+      <div>
+        <h1 class="subhead_text"><b>Explore Some New Thing About Sea</b></h1>
+      </div>
+      <div class="container" style="margin-top: 5%;margin-bottom: 10%;">
+        <h1 style="color: #3533a3;margin-bottom: 10px;" class="col-4-head"><u>Beaches</u></h1>
+        <div class="row" style="color: #010041;border-radius: 10%;">
+         <div class="col-4">
+            <img src="./beachImg/beaImg1.jpg" height="100%" width="100%" class="img_shadow">
+            <h3 style="padding-top:3%;" class="text">Kozhikode Beach</h3>
+            <button class="btn btn-primary button" type="button">Explore</button>
+         </div>
+          <div class="col-4">
+           <img src="./beachImg/beaImg2.jpg" height="100%" width="100%" class="img_shadow">
+           <h3 style="padding-top:3%;" class="text">Chavakkad Beach</h3>
+           <button class="btn btn-primary button" type="button">Explore</button>
+          </div>
+          <div class="col-4">
+           <img src="./beachImg/beaImg3.jpg"  height="100%" width="100%" class="img_shadow">
+           <h3 style="padding-top:3%;" class="text">Marina Beach</h3>
+           <button class="btn btn-primary button" type="button">Explore</button>
+         </div>
+         </div>
+      </div>
+      <div class="container" style="margin-top: 5%;margin-bottom: 10%;">
+        <h1 style="color: #3533a3;margin-bottom: 10px;" class="col-4-head"><u>Islands</u></h1>
+        <div class="row" style="color: #010041;border-radius: 10%;">
+         <div class="col-4">
+          <img src="./beachImg/beaImg4.jpg" alt="" height="100%" width="100%" class="img_shadow">
+          <h3 style="padding-top:3%;" class="text">Maldives</h3>
+          <button class="btn btn-primary button" type="button">Explore</button>
+         </div>
+          <div class="col-4">
+           <img src="./beachImg/beaImg5.jpg" alt=""  height="100%" width="100%" class="img_shadow">
+           <h3 style="padding-top:3%;" class="text">Bora Bora, French Polynesia</h3>
+           <button class="btn btn-primary button" type="button">Explore</button>
+          </div>
+          <div class="col-4">
+           <img src="./beachImg/beaImg6.jpg" alt=""  height="100%" width="100%" usemap="workmap" class="img_shadow">
+           <h3 style="padding-top:3%;" class="text">Palawan, Philippines</h3>
+           <button class="btn btn-primary button" type="button">Explore</button>
+         </div>
+         </div>
+      </div>
+      <div class="container" style="margin-top: 5%;margin-bottom: 10%;">
+        <h1 style="color:#3533a3;margin-bottom: 10px;" class="col-4-head"><u>Hotels</u></h1>
+        <div class="row" style="color: #010041;border-radius: 10%;">
+         <div class="col-4">
+          <img src="./beachImg/beaImg7.jpg" alt="" height="100%" width="100%" class="img_shadow">
+          <h3 style="padding-top:3%;" class="text">Monastero Santa Rosa Hotel & Spa</h3>
+          <button class="btn btn-primary button" type="button">Explore</button>
+         </div>
+          <div class="col-4">
+           <img src="./beachImg/beaImg8.jpg" alt=""  height="100%" width="100%" class="img_shadow">
+           <h3 style="padding-top:3%;" class="text">Hotel 71</h3>
+           <button class="btn btn-primary button" type="button">Explore</button>
+          </div>
+          <div class="col-4">
+           <img src="./beachImg/beaImg9.jpg" alt=""  height="100%" width="100%" usemap="workmap" class="img_shadow">
+           <h3 style="padding-top:3%;" class="text">RAAS Jodhpur</h3>
+           <button class="btn btn-primary button" type="button">Explore</button>
+         </div>
+         </div>
+      </div>
+    <div class="container mt-5" style="border-top: 2px solid #0f79f3;">
+      <footer class="text-center text-primary m-3" >
+        <span class="icons_1">Follow us on</span><br>
+        <a href="#" style="color: #0d6efd;"><i class="fab fa-facebook-square me-2 icons"></i></a>
+        <a href="#" style="color: #0d6efd;"><i class="fab fa-instagram me-2 icons"></i></a>
+        <a href="#" style="color: #0d6efd;"><i class="fab fa-twitter-square me-2 icons"></i></a>
+        <a href="#" style="color: #0d6efd;"><i class="fab fa-youtube-square icons"></i></a><br>
+      </footer>
+    </div>
+    </div>
+</body>
+</html>

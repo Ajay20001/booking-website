@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="C:/Users/funlo/Desktop/project1/bootstrap-icons-1.5.0/">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>PLAN YOUR TRIP</title>
+    <link rel="Icon" href="../images/icon.png">
+    <style>
+      .hover{
+        color: #212529;
+      }
+      .hover:hover{
+        background-color: #212529;
+        color: white;
+      }
+      .carousel-control-prev, .carousel-control-next{
+        margin-left: 5%;
+        margin-right: 5%;
+        border-radius: 50%;
+        width: 60px;
+        bottom: 1;
+        margin-top: 11%;
+        margin-bottom: 13%;
+        background-color: rgb(32, 29, 29);
+      }
+    </style>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <div>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./mainPage.html"><i class="fal fa-tree-palm"></i> TRAVEL EXPLORA</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 p-2 mx-auto">
+              <li class="nav-item dropdown pe-3">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdownNav" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+                  Things To Do
+                </a>
+                <ul class="dropdown-menu bg-light" aria-labelledby="dropdownNav scroll">
+                  <li><a class="dropdown-item hover" href="./beachHolidays.html">Beach Holidays</a></li>
+                  <li><a class="dropdown-item hover" href="./shopping.html">Shopping</a></li>
+                  <li><a class="dropdown-item hover" href="./food.html">Food & drink</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown pe-3">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdownNav" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+                  Plan Your Trip
+                </a>
+                <ul class="dropdown-menu bg-light" aria-labelledby="dropdownNav">
+                  <li><a class="dropdown-item hover" href="./travelInfo.html">Travel information</a></li>
+                  <li><a class="dropdown-item hover" href="./gettingAround.html">Getting Around</a></li>
+                  <li><a class="dropdown-item hover" href="./accommodation.html">Accommodation</a></li>
+                </ul>
+              </li>
+              <li class="nav-item pe-3">
+                <a class="nav-link" aria-current="page" href="./bookByDestination.html">Book Travel</a>
+              </li>
+              <li class="nav-item dropdown pe-3">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdownNav" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+                  Contact
+                </a>
+                <ul class="dropdown-menu bg-light" aria-labelledby="dropdownNav">
+                  <li><a class="dropdown-item hover" href="./aboutUs.html">About Us</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item hover" href="./emailSignup.html">Email Signup</a></li>
+                </ul>
+              </li>
+            </ul>
+            <button class="btn btn-light rounded-circle me-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"><i class="fal fa-search"></i></button>
+            <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel" style="border-left: 10px solid #212529;border-right: 10px solid #212529;">
+              <div class="offcanvas-header">
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+            <div class="offcanvas-body">
+              <div class="container">
+                <form class="d-flex" style="padding-right: 30%;padding-left:30%;">
+                  <input class="form-control me-2 rounded-pill" type="search" placeholder="Start Explore..." aria-label="Search" style="color: #ffee00">
+                  <a class="btn btn-outline-dark rounded-pill" type="button" href="#">Explore</a>
+                </form><br>
+                <h5 style="text-align: center;color: #212529;"><u>TRY SEARCHING FOR</u></h5>
+                <div class="row" style="text-align: center;margin-top: 20px;">
+                <div class="col">
+                <a class="btn btn-outline-danger rounded-pill" style="font-size: 70%;" href="#" role="button">MUSEUM</a>
+                <a class="btn btn-outline-dark rounded-pill" style="font-size: 70%;" href="#" role="button">SHOPPING</a>
+                <a class="btn btn-outline-danger rounded-pill" style="font-size: 70%;" href="#" role="button">FOOD</a>
+                <a class="btn btn-outline-dark rounded-pill" style="font-size: 70%;" href="#" role="button">FAMILY</a>
+                <a class="btn btn-outline-danger rounded-pill" style="font-size: 70%;" href="#" role="button">ADVENTURE</a>
+                <a class="btn btn-outline-dark rounded-pill" style="font-size: 70%;" href="#" role="button">RELAX</a>
+                <a class="btn btn-outline-danger rounded-pill" style="font-size: 70%;" href="#" role="button">BEACH</a>
+                <a class="btn btn-outline-dark rounded-pill" style="font-size: 70%;" href="#" role="button">SPORTS</a>
+                <a class="btn btn-outline-danger rounded-pill" style="font-size: 70%;" href="#" role="button">ART</a>
+                <a class="btn btn-outline-dark rounded-pill" style="font-size: 70%;" href="#" role="button">DESERT</a>
+                </div>
+                </div>
+              </div>
+          </div>
+        </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div>
+      <img src="./accomImag/img1.jpg" class="w-100" alt="" height="500x">
+    </div>
+    <div style="border-left: 10px solid #212529;border-right: 10px solid #212529;">
+      <div>
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb me-3" style="font-size: 15px;margin-top: 10px;margin-left: 25px;">
+            <li class="breadcrumb-item"><a href="./mainPage.html" style="color: black;">Plan Your Trip</a></li>
+            <li class="breadcrumb-item" aria-current="page" style="color: rgb(45, 48, 49);">Accommodation</li>
+          </ol>
+        </nav>
+      </div>
+      <div style="text-align: center;color: #000000;margin-top: 30px;">
+        <h5>PLAN YOUR TRIP</h5>
+      </div>
+      <div>
+        <h1 style="text-align: center;color: #030303;margin-top: 30px;text-shadow: 2px 2px 2px #28282b;"><b>Accommodation</b></h1>
+      </div>
+      <div class="container" style="margin-top: 5%;margin-bottom:5%;">
+        <div class="row" style="color: #000000;margin-top: 5%;margin-bottom: 10px;margin-left: 10%;margin-right: 10%;">
+          <div class="col-6">
+            <img src="./accomImag/img2.jpg" alt="" width="100%" height="100%">
+          </div>
+          <div class="col-6">
+            <h1 style="margin-top: 5%;"><u>Acme Hotel Company</u></h1><br>
+            <h5 style="color: #242121;">This hipster hotel in Chicago's River North neighborhood has a tech bent: In addition to free Wi-Fi, 100 MB bandwidth, and keyless room entry via an app, Acme has also rolled out Amazon Echos in every guest room and ESP Guitars in every suite.</h5><br>
+            <button class="btn btn-dark px-3" type="button"><i class="far fa-bookmark"></i> Book</button>
+          </div>
+        </div>
+        <div class="row" style="color: #000000;margin-top:10%;margin-bottom: 10px;margin-left: 10%;margin-right: 10%;">
+          <div class="col-6">
+            <h1 style="margin-top: 4%;"><u>New York's Plaza Hotel</u></h1><br>
+            <h5 style="color: #242121;">New York's Plaza Hotel, currently owned by Indian company Sahara, is rumoured to be back on the market. This is not the first time the hotel, partly-owned by previously incarcerated Indian businessman Subrata Roy, has been put on the chopping block.</h5><br>
+            <button class="btn btn-dark px-3" type="button"><i class="far fa-bookmark"></i> Book</button>
+          </div>
+          <div class="col-6">
+            <img src="./accomImag/img3.jpg" alt="" width="100%" height="100%">
+          </div>
+        </div>
+        <div class="row" style="color: #000000;margin-top: 10%;margin-bottom: 10px;margin-left: 10%;margin-right: 10%;">
+          <div class="col-6">
+            <img src="./accomImag/img4.jpg" alt="" width="100%" height="100%">
+          </div>
+          <div class="col-6">
+            <h1><u>Gran Hotel Manzana kempinski</u></h1><br>
+            <h5 style="color: #242121;">The Gran Hotel Manzana Kempinski La Habana is a luxury hotel in Havana, Cuba. It is located in the historic Manzana de Gómez building, an early-20th-century building that was originally Cuba's first shopping mall.</h5><br>
+            <button class="btn btn-dark px-3" type="button"><i class="far fa-bookmark"></i> Book</button>
+          </div>
+        </div>
+      </div>
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" style="margin-top: 10%;margin-bottom: 8%;">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container" style="margin-left: 10%;margin-bottom: 1%;">
+              <div class="row">
+                <div class="col-4">
+                  <div class="card shadow" style="width: 18rem;">
+                    <img src="accomImag/card1.jpg" class="card-img-top" height="200px" width="100px">
+                    <div class="card-body">
+                      <h4 class="card-title text-center" style="color: rgb(0, 0, 0);">Emirates Palace</h4>
+                      <p class="card-text text-center" style="color: rgb(15, 9, 9);"><b>Location:</b> West Corniche Road, Abu Dhabi, United Arab Emirates</p>
+                      <p class="card-text text-center"><span style="color: rgb(0, 0, 0);"><strong>Rating: </strong></span><span style="color: #ffd000;"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></span></p>
+                      <a href="#" class="btn btn-dark px-4" style="margin-left: 33%;"><i class="far fa-bookmark"></i> Book</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="card shadow" style="width: 18rem;">
+                    <img src="accomImag/card2" class="card-img-top" height="200px" width="100px">
+                    <div class="card-body">
+                      <h4 class="card-title text-center" style="color: rgb(0, 0, 0);">The Pentominium</h4>
+                      <p class="card-text text-center" style="color: rgb(15, 9, 9);"><b>Location:</b> Dubai, United Arab Emirates</p>
+                      <p class="card-text text-center"><span style="color: rgb(0, 0, 0);"><strong>Rating: </strong></span><span style="color: #ffd000;"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></span></p>
+                      <a href="#" class="btn btn-dark px-4" style="margin-left: 33%;"><i class="far fa-bookmark"></i> Book</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="card shadow" style="width: 18rem;">
+                    <img src="accomImag/card3.jpg" class="card-img-top" height="200px" width="100px">
+                    <div class="card-body">
+                      <h4 class="card-title text-center" style="color: rgb(0, 0, 0);">Town House Galleria</h4>
+                      <p class="card-text text-center" style="color: rgb(15, 9, 9);"><b>Location:</b> Via Silvio Pellico, 8, 20121 Milano MI, Italy</p>
+                      <p class="card-text text-center"><span style="color: rgb(0, 0, 0);"><strong>Rating: </strong></span><span style="color: #ffd000;"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></span></p>
+                      <a href="#" class="btn btn-dark px-4" style="margin-left: 33%;"><i class="far fa-bookmark"></i> Book</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container" style="margin-left: 10%;margin-bottom: 1%;">
+              <div class="row">
+                <div class="col-4">
+                  <div class="card shadow" style="width: 18rem;">
+                    <img src="accomImag/card4.jpg" class="card-img-top" height="200px" width="100px">
+                    <div class="card-body">
+                      <h4 class="card-title text-center" style="color: rgb(0, 0, 0);">The Flower Of The East</h4>
+                      <p class="card-text text-center" style="color: rgb(15, 9, 9);"><b>Location:</b> Kish Island, Iran, United Arab Emirates</p>
+                      <p class="card-text text-center"><span style="color: rgb(0, 0, 0);"><strong>Rating: </strong></span><span style="color: #ffd000;"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></i><i class="far fa-star"></i></span></p>
+                      <a href="#" class="btn btn-dark px-4" style="margin-left: 33%;"><i class="far fa-bookmark"></i> Book</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="card shadow" style="width: 18rem;">
+                    <img src="accomImag/card5.jpg" class="card-img-top" height="200px" width="100px">
+                    <div class="card-body">
+                      <h4 class="card-title text-center" style="color: rgb(0, 0, 0);"> Signiel Seoul</h4>
+                      <p class="card-text text-center" style="color: rgb(15, 9, 9);"><b>Location:</b>300, Olympic-ro, Songpa-gu, 05551 Seoul, South Korea</p>
+                      <p class="card-text text-center"><span style="color: rgb(0, 0, 0);"><strong>Rating: </strong></span><span style="color: #ffd000;"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></span></p>
+                      <a href="#" class="btn btn-dark px-4" style="margin-left: 33%;"><i class="far fa-bookmark"></i> Book</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="card shadow" style="width: 18rem;">
+                    <img src="accomImag/card6.jpg" class="card-img-top" height="200px" width="100px">
+                    <div class="card-body">
+                      <h4 class="card-title text-center" style="color: rgb(0, 0, 0);">The Centaurus</h4>
+                      <p class="card-text text-center" style="color: rgb(15, 9, 9);"><b>Location:</b> Jinnah Avenue, Islamabad, Pakistan</p>
+                      <p class="card-text text-center"><span style="color: rgb(0, 0, 0);"><strong>Rating: </strong></span><span style="color: #ffd000;"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span></p>
+                      <a href="#" class="btn btn-dark px-4" style="margin-left: 33%;"><i class="far fa-bookmark"></i> Book</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container" style="margin-left: 10%;margin-bottom: 1%;">
+              <div class="row">
+                <div class="col-4">
+                  <div class="card shadow" style="width: 18rem;">
+                    <img src="accomImag/card7.jpg" class="card-img-top" height="200px" width="100px">
+                    <div class="card-body">
+                      <h4 class="card-title text-center" style="color: rgb(0, 0, 0);"> Laucala Island Resort</h4>
+                      <p class="card-text text-center" style="color: rgb(15, 9, 9);"><b>Location:</b> Laucala Island Resort, Laucala Island, Fiji</p>
+                      <p class="card-text text-center"><span style="color: rgb(0, 0, 0);"><strong>Rating: </strong></span><span style="color: #ffd000;"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span></p>
+                      <a href="#" class="btn btn-dark px-4" style="margin-left: 33%;"><i class="far fa-bookmark"></i> Book</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="card shadow" style="width: 18rem;">
+                    <img src="accomImag/card8.jpg" class="card-img-top" height="200px" width="100px">
+                    <div class="card-body">
+                      <h4 class="card-title text-center" style="color: rgb(0, 0, 0);">Hotel Plaza Athenee</h4>
+                      <p class="card-text text-center" style="color: rgb(15, 9, 9);"><b>Location:</b> 25 Avenue Montaigne, 75008 Paris, France</p>
+                      <p class="card-text text-center"><span style="color: rgb(0, 0, 0);"><strong>Rating: </strong></span> <span style="color: #ffd000;"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></span></p>
+                      <a href="#" class="btn btn-dark px-4" style="margin-left: 33%;"><i class="far fa-bookmark"></i> Book</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="card shadow" style="width: 18rem;">
+                    <img src="accomImag/card9.jpg" class="card-img-top" height="200px" width="100px">
+                    <div class="card-body">
+                      <h4 class="card-title text-center" style="color: rgb(0, 0, 0);">Oberoi Rajvilas Hotel</h4>
+                      <p class="card-text text-center" style="color: rgb(15, 9, 9);"><b>Location:</b> Babaji Ka Modh, Goner Rd, Jaipur, Rajasthan 302031 India</p>
+                      <p class="card-text text-center"><span style="color: rgb(0, 0, 0);"><strong>Rating: </strong></span><span style="color: #ffd000;"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></span></p>
+                      <a href="#" class="btn btn-dark px-4" style="margin-left: 33%;"><i class="far fa-bookmark"></i> Book</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="container mt-5" style="border-top: 2px solid #141414;">
+        <footer class="text-center text-dark m-3" >
+          <span style="font-size: 20px;">Follow us on</span><br>
+          <a href="#" style="color: #212529;"><i style="font-size: 30px;" class="fab fa-facebook-square me-2"></i></a>
+          <a href="#" style="color: #212529;"><i style="font-size: 30px;" class="fab fa-instagram me-2"></i></a>
+          <a href="#" style="color: #212529;"><i style="font-size: 30px;" class="fab fa-twitter-square me-2"></i></a>
+          <a href="#" style="color: #212529;"><i style="font-size: 30px;" class="fab fa-youtube-square"></i></a><br>
+        </footer>
+      </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+.list_item:hover,.list{
+    color: rgb(255, 126, 6);
+    font-size: 23px;
+  }
+
+  .lists{
+    color: #1d3557;
+    margin: -1%;
+    size: 3%;
+  }
+
+  .list_item{
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffc107;
+    padding:5px 0px 5px 2%;
+  }
+
+  .hover:hover{
+    color: white;
+    background-color: #ffc107;
+  }
+  .yellow{
+    color: #ffc107;
+  }
+  .yellow:hover{
+    background-color: #ffc107;
+    color: white;
+  }
+  .dropdown-menu{
+    border: 1px solid rgb(255, 238, 0);
+  }
+  .dropdown-divider{
+    border: 1px solid rgb(221, 206, 0);
+  }
